@@ -9,7 +9,7 @@ sz = [30, 40, 50, 30, 30, 30];
 modes = {[1, 2, 3], [1, 4], [1, 5, 6]};
 R = 20;
 tensorNum = length(modes);
-lambdas = cell(1, tensorNum);
+lambdas = cell(1, tensorNum); 
 for n = 1:tensorNum
     lambdas{n} = ones(1, R);
 end
